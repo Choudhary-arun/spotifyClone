@@ -1,0 +1,19 @@
+<div className="@apply sticky h-[100px] bg-[black] flex justify-center items-center text-[white] flex-col bottom-0">
+  <input
+    type="range"
+    name="range"
+    className="@apply w-[80vw] cursor-pointer"
+    min={0}
+    defaultValue={0}
+    max={100}
+  />
+  <div className=" @apply mt-3.5;">
+    <i className=" fa-solid fa-3x fa-backward" id="previous" />
+    <i className="fa-regular fa-3x fa-circle-play" id="masterPlay" />
+    <i className="fa-solid fa-3x fa-forward" id="next" />
+  </div>
+  <div className="songInfo">
+    <img src="playing.gif" width="60px" alt="" id="gif" />
+    <span id="masterSongName">Levitating</span>
+  </div>
+</div>
